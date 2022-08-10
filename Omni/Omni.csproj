@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{55AF269C-0704-4A82-A07A-56AB58A00050}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Omni</RootNamespace>
+    <AssemblyName>Omni</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Wallpaperfx-3d-Bluefx-Desktop-Usb.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStepFive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStepFive.Designer.cs">
+      <DependentUpon>frmStepFive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStepFour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStepFour.Designer.cs">
+      <DependentUpon>frmStepFour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStepOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStepOne.Designer.cs">
+      <DependentUpon>frmStepOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStepSeven.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStepSeven.Designer.cs">
+      <DependentUpon>frmStepSeven.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStepSix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStepSix.Designer.cs">
+      <DependentUpon>frmStepSix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStepThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStepThree.Designer.cs">
+      <DependentUpon>frmStepThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStepTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStepTwo.Designer.cs">
+      <DependentUpon>frmStepTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarning.Designer.cs">
+      <DependentUpon>frmWarning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStepFive.resx">
+      <DependentUpon>frmStepFive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStepFour.resx">
+      <DependentUpon>frmStepFour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStepOne.resx">
+      <DependentUpon>frmStepOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStepSeven.resx">
+      <DependentUpon>frmStepSeven.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStepSix.resx">
+      <DependentUpon>frmStepSix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStepThree.resx">
+      <DependentUpon>frmStepThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStepTwo.resx">
+      <DependentUpon>frmStepTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarning.resx">
+      <DependentUpon>frmWarning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Documentation\Process Documentation.txt" />
+    <Content Include="Images\DSC_0046.jpg" />
+    <Content Include="Images\DSC_0047.jpg" />
+    <Content Include="Images\krayknot.png" />
+    <Content Include="Images\Wireless-Router.gif" />
+    <Content Include="Wallpaperfx-3d-Bluefx-Desktop-Usb.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

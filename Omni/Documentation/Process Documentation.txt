@@ -1,0 +1,28 @@
+﻿Connect to the Internet on your 3G data stick.
+Plug your laptop to one of the router's LAN ports. Wait until the router connects correctly.
+Click Start > Control Panel > View Network status and tasks > Change adapter settings
+Right click the modem (or the connection where you get Internet from) > Status > Details. Write down the "IPv4 DNS Servers" on a piece of paper. Click Close once.
+Right click the Local Area Network > Status > Details. Write down the "IPv4 Default Gateway". Click Close > Close.
+Open the browser and type the IPv4 Default Gateway on the addressbar. Routers are all different so you need to figure out where to find and configure the following:
+Review your wireless security settings. What is your SSID? What is your security key? Write this down.
+Under WAN, choose "Static IP" instead of "PPPoE" or "Automatic - DHCP".
+Under WAN, set the WAN IP to 192.168.137.2
+Under WAN, set the Netmask to 255.255.255.0
+Under WAN, set the Gateway to 192.168.137.1
+Under WAN, set the DNS Server(s) to the "IPv4 DNS Servers" you got from step 4.
+Click Save.
+Unplug your laptop from the router's LAN port and plug it to the WAN port. Wait until the router connects correctly.
+Go back to the "Network connection" screen on Step 4 > Properties > Sharing >
+Check "Allow other network users to connect through this computer's Internet connection."
+Under Home networking connection choose "Local Area Connection"
+Click OK then OK.
+Right click the Local Area Network > Status > Details. Is the IPv4 address "192.168.137.1"? If yes, then you're done! Tell everyone to connect to the wireless router and they will be online.
+NOTE: There's a router-less method using "ad-hoc networks", but using a router provides more range and can handle more connected computers or wifi phones.
+
+To put things back to before.
+
+Uncheck the "Allow other network users to connect through this computer's Internet connection." on Step 7. Click OK.
+Unplug the laptop from the router's WAN port and plug it into one of its LAN ports.
+Open a browser and visit the "IPv4 Default Gateway" address you got from Step 5.
+Switch the WAN setting from "Fixed IP" back to "Automatic - DHCP". Save changes.
+You're done!
